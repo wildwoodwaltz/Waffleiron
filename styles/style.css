@@ -1,0 +1,65 @@
+html {
+    background-color: #fffffc;
+    
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    background-color: #ffadad;
+    border-radius: 25px;
+}
+
+#team {
+    background-color: #ffd6a5;
+    border-radius: 25px;
+}
+
+#toc {
+    background-color: #fdffb6;
+    border-radius: 25px;
+}
+
+nav {
+    display: grid;
+}
+
+main {
+    background-color: #caffbf;
+    border-radius: 25px;
+}
+
+#leatherworking {
+    background-color: #9bf6ff;
+    border-radius: 25px;
+}
+
+#vtuber {
+    background-color: #A0C4FF;
+    border-radius: 25px;
+}
+
+footer {
+    background-color: #BDB2FF;
+    border-radius: 25px;   
+}
+footer p{
+    display: inline-block;
+}
+li {
+    display: inline-block;
+}
+li a{
+    text-align: center;
+    font-size: 24px;
+    padding: 15;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
