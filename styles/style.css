@@ -10,6 +10,7 @@ body {
 header {
     background-color: #ffadad;
     border-radius: 25px;
+    border-color: #FFC6ff;
 }
 
 #team {
@@ -52,10 +53,15 @@ li {
     display: inline-block;
 }
 li a{
+    display: inline-block;
+    padding: 15px 15px;
     text-align: center;
+    text-decoration: none;
     font-size: 24px;
     padding: 15;
+
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -63,3 +69,9 @@ ul {
     overflow: hidden;
     text-align: center;
 }
+a:hover {
+    background-color: #FFC6FF;
+}
+
+li a:hover {
+    background-color: #FFC6FF;
