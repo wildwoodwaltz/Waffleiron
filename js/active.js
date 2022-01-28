@@ -55,6 +55,8 @@ function imgprompt(promptimage){
         imgprompt(promptimage + error);
     } else if(imgct <= 3) {
         for(let i = 0; i < imgct; i++){
+            var element = document.getElementById("pop");
+            element.onclick = "";
              document.getElementById("imgs").innerHTML += '<img src="./cats.gif">';
         }
     }    
