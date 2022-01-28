@@ -55,7 +55,7 @@ function imgprompt(promptimage){
         imgprompt(promptimage + error);
     } else if(imgct <= 3) {
         for(let i = 0; i < imgct; i++){
-             document.getElementById("imgs").innerHTML += '<img src="./vivandrupert.png">';
+             document.getElementById("imgs").innerHTML += '<img src="./cats.gif">';
         }
     }    
 }
